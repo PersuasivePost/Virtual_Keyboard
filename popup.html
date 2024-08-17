@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="keyboard">
+        <div id="display">
+            <div class="textarea-container">
+                <textarea id="inputArea" rows="5" cols="50"></textarea>
+                <button id="copyButton">
+                    <img src="copy.png" alt="Copy">
+                </button>
+            </div>
+        </div>
+        <div id="keyboardContainer" class="keyboard-container"></div>
+        <div class="button-container">
+            <button id="capsLock">Caps Lock</button>
+            <button id="clearButton">Clear</button>
+            <button id="backspaceButton">Backspace</button>
+        </div>
+    </div>
+    <!-- <script src="toggle.js"></script> -->
+    <script src="popup.js"></script>
+</body>
+</html>
