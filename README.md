@@ -1,4 +1,4 @@
-<h1>Virtuak Keyboard</h1>
+<h1>Virtual Keyboard</h1>
 
 <a href="https://persuasivepost.github.io/Virtual_Keyboard/">Click here </a>
 
